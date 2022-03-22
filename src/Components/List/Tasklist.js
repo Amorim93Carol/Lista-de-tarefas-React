@@ -2,7 +2,7 @@ import React from "react";
 import "./Tasklist.css";
 import PropTypes from "prop-types";
 
-export default function Tasklist({ title, onAddtask }) {
+export default function Tasklist({ title, onAddtask, task }) {
   const addTask = () => {
     onAddtask("Nova Tarefa", "Pendente");
   };
@@ -10,7 +10,7 @@ export default function Tasklist({ title, onAddtask }) {
   return (
     <div className="Tasklist">
       <div className="titleList"> {title} </div>
-      <div className="content"> </div>
+      <div className="content"></div>
       <button onClick={addTask}>Adicionar Tarefa</button>
     </div>
   );
@@ -18,5 +18,6 @@ export default function Tasklist({ title, onAddtask }) {
 
 Tasklist.proptypes = {
   title: PropTypes.string.isRequired,
-  onAddTask: PropTypes.func.isRequired
+  onAddTask: PropTypes.func.isRequired,
+  task: PropTypes.array.isRequired
 };

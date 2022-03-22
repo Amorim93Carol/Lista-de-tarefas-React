@@ -32,7 +32,7 @@ export default function App() {
     <div className="App">
       <Navbar />
       <div className="container">
-        <Tasklist title="Pendente" onAddTask={addTask} />
+        <Tasklist title="Pendente" onAddTask={addTask} task={task} />
         <Tasklist title="Tarefa 2" />
         <Tasklist title="Tarefa 3" />
       </div>
