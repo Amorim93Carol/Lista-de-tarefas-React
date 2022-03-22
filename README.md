@@ -1,2 +1,3 @@
 # Lista-de-tarefas-React
-Created with CodeSandbox
+
+URL do Projeto: [aqui](https://r6g0b9.csb.app/)
