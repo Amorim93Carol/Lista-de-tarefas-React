@@ -1,0 +1,19 @@
+.Tasklist {
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background: #5797b9;
+  width: 30%;
+  margin-top: 8px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Tasklist .titleList {
+  background: rgb(0, 0, 0, 0.3);
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.Tasklist .content {
+  padding: 20px 4px;
+}
